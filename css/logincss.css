@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#login{
+/*     background-image: linear-gradient(to left, #0F2027,#203A43,#2C5364); */
+    color: #fff;
+}
+html, body {
+  background-image: linear-gradient(to left, #0F2027,#203A43,#2C5364) !important;
+  min-Height: 100%
+
+}

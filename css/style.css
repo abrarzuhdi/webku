@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#nav-bar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar{
+  background-image: linear-gradient(to left, #0F2027,#203A43,#2C5364);
+  padding: 0 !important;
+}
+.navbar-brand img{
+  height: 50px;
+  padding-left: 10px;
+}
+.navbar-nav li{
+  padding: 0 10px;
+}
+.navbar-nav li a{
+  color: #fff !important;
+  font-weight: 600;
+}
+.navbar-toggler-icon{
+  color:  #ff0000;
+  font-size: 30px !important;
+}
+#banner{
+  background-image: linear-gradient(to left, #0F2027,#203A43,#2C5364);
+  color: #fff;
+  padding-top: 5%;
+}
+.promo-title{
+  font-size: 35px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+.instagram{
+  width: 25px;
+  margin: 25px 5px;
+}
+#banner a{
+  color: #fff;
+  text-decoration: none;
+}
+.img-fluid{
+  margin: 0px 80px;
+  display: flex;
+}
+
+#footer{
+    background-image: linear-gradient(to left, #0F2027,#203A43,#2C5364);
+    font-size: 13px !important;
+    padding: 0 !important;
+}
+
+/* Images */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 33.3%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  filter: grayscale(1) brightness(0.5);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.column img:hover {
+  filter: grayscale(0);
+}
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .column img {
+    filter: grayscale(0) brightness(1);
+  }
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 33.3%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  filter: grayscale(1) brightness(0.5);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.column img:hover {
+  filter: grayscale(0);
+}
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .column img {
+    filter: grayscale(0) brightness(1);
+  }
+}
